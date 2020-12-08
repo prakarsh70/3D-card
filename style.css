@@ -20,7 +20,7 @@ body{
 
 }
 .container{
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,11 +49,8 @@ body{
 .circle{
     width: 10rem;
     height: 10rem;
-    background: linear-gradient(
-        to right,
-        rgba(245,70,66,0.75),
-        rgba(8,83,156,0.75)
-    );
+    background: url('./01.-Royal-Heath.jpg');
+    background-position: center;
     position: absolute;
     border-radius: 50%;
     z-index: 1;
@@ -62,6 +59,7 @@ body{
 
 .title{
  font-weight: 2em;
+ transition: all 0.75s ease-out;
 }
 .info{
     min-height: 20vh;
@@ -214,16 +212,22 @@ body{
 }
 .purchase{
     margin-top: 12%;
-    min-height: 10vh;
+    min-height: 7vh;
     transition: all 0.75s ease-out;
-}
-.purchase button{
-    width: 100%;
-    padding: 1rem 0rem;
     background: #f54642;
-    border: none;
-    color: white;
     cursor: pointer;
     border-radius: 30px;
-    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.purchase a{
+    width: 100%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    transition: all 0.75s ease-out;
+    text-decoration: none;
 }
