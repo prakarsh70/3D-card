@@ -28,8 +28,8 @@ if (isMobile) {
     title.style.transform = "translateZ(110px)";
     sneaker.style.transform = "translateZ(120px) rotateZ(-15deg)";
     description.style.transform = "translateZ(100px)";
-    sizes.style.transform = "translateZ(75px)";
-    purchase.style.transform = "translateZ(50px)";
+    sizes.style.transform = "translateZ(50px)";
+    purchase.style.transform = "translateZ(75px)";
   });
 
   // Animate out

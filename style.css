@@ -211,7 +211,7 @@ body{
     align-items: center;
 }
 .purchase{
-    margin-top: 12%;
+    margin-bottom: 12%;
     min-height: 10vh;
     transition: all 0.75s ease-out;
     display: flex;
@@ -229,6 +229,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0rem 0.5rem;
 }
 .purchase  a , button{
     border: none;
